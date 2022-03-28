@@ -24,6 +24,7 @@ public class student {
 			System.out.print(rsmd.getColumnName(j)+"\t"); 
 			System.out.print(" "); 
 		} 
+		System.out.println();
 
 		// Print records
 		while(rs.next( ) ) { 
@@ -31,6 +32,7 @@ public class student {
 			{ 
 				System.out.print ( rs.getString( j)+"\t"); 
 			}
+			System.out.println();
 		}
 		
 	}
